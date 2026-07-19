@@ -1,0 +1,16 @@
+{
+  "name": "mingxin-mcp-server",
+  "version": "1.0.0",
+  "description": "Official Mingxin MCP server (stdio): signed AI-inference-storage benchmarks (KV cache tiering, throughput +29-40%, TTFT -26-32% on AMD MI308X), technical article search, and KV-cache tiering ROI estimation. Every figure carries a test-report citation.",
+  "bin": { "mingxin-mcp-server": "index.js" },
+  "main": "index.js",
+  "type": "module",
+  "engines": { "node": ">=18" },
+  "files": ["index.js", "README.md", "LICENSE"],
+  "keywords": ["mcp", "model-context-protocol", "ai-storage", "kv-cache", "llm-inference", "benchmark", "nvme-of"],
+  "author": "Mingxin (Tianjin) Semiconductor Equipment Co., Ltd.",
+  "license": "MIT",
+  "homepage": "https://mingxinstorage.xyz/en",
+  "repository": { "type": "git", "url": "git+https://github.com/mingxin-tech/mingxin-mcp-server.git" },
+  "mcpName": "xyz.mingxinstorage/mingxin-mcp-server"
+}
